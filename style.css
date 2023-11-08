@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 290px;
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    /* background: greenyellow; */
+    background: radial-gradient(purple, orange);
+    border: 23px solid greenyellow;
+    box-shadow: 15px 15px 16px purple ,20px 40px 65px  red;
+    border-radius: 50%;
+    filter: drop-shadow(20px -40px 65px cyan);
+    animation: julian 0.5s linear infinite;
+   
+}
+
+@keyframes julian {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
